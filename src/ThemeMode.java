@@ -76,4 +76,6 @@ public class ThemeMode implements Mode{
     public String toString(){
         return "THEME";
     }
+
+
 }

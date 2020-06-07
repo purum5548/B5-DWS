@@ -25,8 +25,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4f68cd-6d3f-4a4c-9105-7235457d20d3" name="Default Changelist" comment="Time Class Fixed">
+      <change afterPath="$PROJECT_DIR$/TestCases/ModeManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B5-DWS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/B5-DWS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/B5-DWS/ModeManagerInteracter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/B5-DWS/ModeManagerInteracter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/B5-DWS/TimeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/B5-DWS/TimeManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlarmMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlarmMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Buzzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buzzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModeManagerInteracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModeManagerInteracter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Segment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ThemeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThemeMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +49,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -50,26 +63,41 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\purum\Documents\GitHub\B5-DWS\src\resources" />
       <recent name="C:\Users\purum\Documents\GitHub\B5-DWS\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\purum\Documents\GitHub\B5-DWS\Test" />
       <recent name="C:\Users\purum\Documents\GitHub\B5-DWS\src" />
       <recent name="C:\Users\purum\Documents\GitHub\B5-DWS\src\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WatchGUI">
+  <component name="RunManager" selected="JUnit.ModeManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="B5-DWS" />
@@ -98,8 +126,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ModeManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B5-DWS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ModeManager" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ModeManager" />
         <item itemvalue="Application.WatchGUI" />
         <item itemvalue="Application.Watch" />
         <item itemvalue="Application.App" />
@@ -161,6 +199,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Time Class Fixed" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1591517224823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1591517224823" />
     <state x="725" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591280982328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -174,6 +216,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="309" key="#com.intellij.ide.util.TreeFileChooserDialog/-1920.8.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591287205658" />
+    <state x="742" y="383" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591517252650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="383" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1591517252650" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1591171982812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -182,26 +228,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="330" key="FileChooserDialogImpl/-1920.8.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591281329056" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591453074755">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591517077823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.8.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591453074755" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591346654218" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591453074755">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591517077823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591517077823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.8.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591453074755" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591346654218" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591453074755">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591517077823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591517077823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.8.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591453074755" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591346654218" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591453074755">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591517077823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591517077823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.8.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591453074755" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591346654218" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591517077823" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591346654218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,6 +281,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591171986763" />
+    <state x="665" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591515907669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1591515907669" />
+    <state x="724" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591517306381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591517306381" />
     <state width="1728" height="303" key="javadoc.popup" timestamp="1591286536020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -16,12 +16,8 @@ public class TimeManager {
     }
 
     public Time getCurrentTime(){
-        if(TestCurrentTime());
+        local_date_time = LocalDateTime.now();
         return new Time(local_date_time);
     }
 
-    public Boolean TestCurrentTime(){
-        local_date_time = LocalDateTime.now();
-        return true;
-    }
 }

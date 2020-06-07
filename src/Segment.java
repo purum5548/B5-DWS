@@ -1,7 +1,7 @@
 import java.awt.*;
 
 public class Segment {
-    private Color text_color, background_color;
+    public Color text_color, background_color;
     private boolean upper_enabled, lower_enabled;
     private String upper_segment,lower_segment;
 
